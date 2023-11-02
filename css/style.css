@@ -272,6 +272,7 @@ BOTTOM SECTION
 .img-bottom {
      flex-basis: 30%;
      background-position: center;
+     background-repeat: no-repeat;
 }
 
 .img-1 {
@@ -414,6 +415,14 @@ BOTTOM SECTION
 
      .bottom-news > * {
           margin: 1rem;
+     }
+
+     .img-bottom {
+          flex-basis: 40%;
+     }
+
+     .bottom-text {
+          flex-basis: 60%;
      }
 }
 
