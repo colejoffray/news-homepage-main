@@ -88,7 +88,7 @@ h4 {
 
 p {
      line-height: 2rem;
-     font-size: var(--font-size-reg);
+     font-size: var(--font-size-xsmall);
      font-weight: lighter;
 }
 
@@ -133,6 +133,10 @@ div#cover {
      width: fit-content;
      letter-spacing: .2rem;
      font-size: var(--font-size-xsmall);
+}
+
+.main-btn {
+     margin: 2rem 0 2rem 0;
 }
 
 .btn:hover {
@@ -246,6 +250,14 @@ MAIN SECTION
      border: none;
 }
 
+.main-title {
+     margin-top: 2rem;
+}
+
+.main-p {
+     margin-top: 2rem;
+}
+
 
 
 /*
@@ -270,7 +282,7 @@ BOTTOM SECTION
 }
 
 .img-bottom {
-     flex-basis: 30%;
+     flex-basis: 40%;
      background-position: center;
      background-repeat: no-repeat;
 }
