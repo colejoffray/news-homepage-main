@@ -97,8 +97,13 @@ p {
      color: var(--color-neutral-blue);
 }
 
-.main-nav li a:hover {
+.footer-links {
+     color: var(--color-neutral-darkerblue);
+}
+
+.main-nav li a:hover, .footer-links:hover{
      color: var(--color-primary-orange);
+     transition: 200ms ease-in;
 }
 
 .wrapper {
